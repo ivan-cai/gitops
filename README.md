@@ -1,10 +1,3 @@
-# How to Model Your Gitops Environments
-
-This is an example on how to model Kustomize folders for a GitOps application and promote releases
-between environments.
-
-Read the [full blog post](https://codefresh.io/about-gitops/how-to-model-your-gitops-environments-and-promote-releases-between-them/). You might want to see the [application source code as well](https://github.com/kostis-codefresh/gitops-promotion-source-code).
-
 ## Folder structure
 
 The base directory holds configuration which is common to all environments. It is not expected to change often. If you want to do changes to multiple environments at the same time it is best to use the “variants” folder.
